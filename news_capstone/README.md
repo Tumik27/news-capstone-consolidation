@@ -4,31 +4,34 @@ This repository contains my **Django News Application Capstone Project**, comple
 
 The goal of this project was not only to build a working Django application, but also to demonstrate professional development practices such as:
 
-- Version control with Git and GitHub
-- Writing clear, maintainable code with proper documentation
-- Generating developer-friendly documentation using Sphinx
-- Containerising the application using Docker for consistent deployment
+- Version control with Git and GitHub  
+- Writing clear, maintainable code  
+- Generating developer documentation using Sphinx  
+- Containerising an application using Docker  
 
-This repository is intended to be part of my **developer portfolio**.
+This repository is intended to form part of my **developer portfolio**.
 
 ---
 
 ## Project Overview
 
-The News Application allows different user roles (readers, journalists, editors) to interact with news articles in a structured workflow.  
+The News Application allows different user roles (Readers, Journalists, Editors) to interact with news articles in a structured workflow.
+
 It demonstrates key Django concepts such as:
 
-- Custom user models
-- Role-based logic
-- Model relationships
-- Clean project structure
-- Environment-based configuration
+- Custom user models  
+- Role-based permissions  
+- Model relationships  
+- API endpoints  
+- Clean project structure  
 
 ---
 
-## Running the project locally (Virtual Environment)
+## Running the Project Locally (Virtual Environment)
 
-### 1. Create and activate a virtual environment
+These steps assume you have **Python 3.10+** installed.
 
+### 1. Clone the repository
 ```bash
-python -m venv .venv
+git clone https://github.com/Tumik27/news-capstone-consolidation.git
+cd news-capstone-consolidation/news_capstone
