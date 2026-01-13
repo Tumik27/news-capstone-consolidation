@@ -1,17 +1,25 @@
-.. News Capstone documentation master file, created by
-   sphinx-quickstart on Thu Jan  8 18:19:34 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-News Capstone documentation
+News Capstone Documentation
 ===========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Welcome to the documentation for the **News Capstone Django Application**.
 
+This project demonstrates a role-based news publishing platform built with Django.
+It includes:
+
+- A custom user model
+- Role-based permissions (Reader, Journalist, Editor)
+- REST API endpoints
+- Signals for workflow automation
+- Clean project structure
+- Container-ready configuration
+
+These docs are generated using **Sphinx** and are wired directly to the source code.
+
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Modules
 
+   api
